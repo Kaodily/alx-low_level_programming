@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*entry point function*/
+/**
+ * main - Entry
+ * Return: Always 0
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multi
