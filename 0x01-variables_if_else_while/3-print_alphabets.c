@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 /**
  * main - Entry
  * Return: Always 0
@@ -13,10 +12,10 @@ int main(void)
 
 	int j;
 
-	for (i = 0; i < strlen(alphaC); i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(alphaS[i]);
-		for (j = 0; j < strlen(alphaC); j++)
+		for (j = 0; j < 26; j++)
 		{
 			putchar(alphaC[j]);
 		}

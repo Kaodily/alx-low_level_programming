@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 /**
  * main - Entry
  * Return: Always 0
@@ -9,7 +8,7 @@ int main(void)
 	char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < strlen(alphabets); i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(alphabets[i]);
 	}
